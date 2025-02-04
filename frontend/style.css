@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+    background-color: #3c4b58;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+form > label{
+    font-size: 120%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: "IBM Plex Sans", serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #3c4b58;
+}
+
+.form-div{
+    width: 30%;
+    background-color: rgb(240, 238, 238);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 5px 5px 50px black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.form-title{
+    font-family: "IBM Plex Sans", serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #3c4b58;
+}
+
+.register-form{
+    width: 100%;
+    background-color: rgb(240, 238, 238);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.form-input{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.div-submit-button{
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.form-submit-button{
+    outline: none;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.form-submit-button:hover{
+    opacity: 0.8;
+}
